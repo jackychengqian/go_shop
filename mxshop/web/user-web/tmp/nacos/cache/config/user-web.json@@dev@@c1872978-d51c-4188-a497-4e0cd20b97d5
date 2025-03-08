@@ -1,0 +1,32 @@
+{
+  "name": "user-web",
+  "host": "127.0.0.1",
+  "port": 50051,
+  "tags": ["user", "service"],
+
+  "user_web": {
+    "host": "127.0.0.1",
+    "port": 50052,
+    "name": "user-web"
+  },
+
+  "jwt": {
+    "key": "my_secret_key"
+  },
+
+  "sms": {
+    "key": "your_ali_sms_api_key",
+    "secrect": "your_ali_sms_secret"
+  },
+
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6380,
+    "expire": 3600
+  },
+
+  "consul": {
+    "host": "127.0.0.1",
+    "port": 8500
+  }
+}

@@ -1,0 +1,33 @@
+2025-03-07T20:39:25.457+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2025-03-07T20:39:30.465+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"dev","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<Get "http://192.168.0.104:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=dev&tenant=6af9810f-2e08-4e9e-ab52-ae2868fe5fcc": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2025-03-07T20:39:35.465+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"dev","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<Get "http://192.168.0.104:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=dev&tenant=6af9810f-2e08-4e9e-ab52-ae2868fe5fcc": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2025-03-07T21:47:29.076+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2025-03-07T21:47:34.093+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"dev","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<Get "http://192.168.0.104:8849/nacos/v1/cs/configs?group=dev&tenant=6af9810f-2e08-4e9e-ab52-ae2868fe5fcc&dataId=user-srv.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2025-03-07T21:52:32.841+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2025-03-07T21:52:33.000+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"DEFAULT_GROUP","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2025-03-07T21:52:33.005+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"DEFAULT_GROUP","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2025-03-07T21:52:33.008+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"DEFAULT_GROUP","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2025-03-07T21:52:33.008+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2025-03-07T21:52:33.008+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: user-srv.json, group: DEFAULT_GROUP, namespaceId: 6af9810f-2e08-4e9e-ab52-ae2868fe5fcc.
+2025-03-07T21:57:06.877+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2025-03-07T21:57:06.881+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"DEFAULT_GROUP","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2025-03-07T21:57:06.884+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"DEFAULT_GROUP","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2025-03-07T21:57:06.887+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"DEFAULT_GROUP","tenant":"6af9810f-2e08-4e9e-ab52-ae2868fe5fcc"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2025-03-07T21:57:06.887+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2025-03-07T21:57:06.887+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: user-srv.json, group: DEFAULT_GROUP, namespaceId: 6af9810f-2e08-4e9e-ab52-ae2868fe5fcc.
+2025-03-07T22:09:48.289+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2025-03-08T09:53:13.780+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
